@@ -27,13 +27,14 @@ body
     border-color: black;
     border-width: 3px;
     margin: 10px;
+    display: flex;
 }
 
 .settings-modal
 {
-    /*display: none;
+    display: none;
     position: fixed;
-    z-index: 1;*/
+    z-index: 1;
     height: 500px;
     width: 425px;
     background-color: grey;
