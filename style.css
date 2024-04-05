@@ -28,3 +28,12 @@ body
     border-width: 3px;
     margin: 10px;
 }
+
+.settings-modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    height: 300px;
+    width: 250px;
+}
