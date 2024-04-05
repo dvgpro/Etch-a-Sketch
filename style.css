@@ -77,8 +77,13 @@ body
     margin: 6px;
 }
 
-.btn-color, .btn-grid
+.btn-color, .btn-grid, .close-modal
 {
     font-size: 20px;
     width: 130px;
+}
+
+.close-modal
+{
+    margin: 15px;
 }
