@@ -4,3 +4,16 @@ body
     flex-direction: column;
     align-items: center;
 }
+
+.game-name
+{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.btn
+{
+    font-size: 20px;
+    height: 30px;
+    width: 175px;
+}
