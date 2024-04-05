@@ -28,6 +28,7 @@ body
     border-width: 3px;
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .settings-modal
