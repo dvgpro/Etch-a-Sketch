@@ -12,3 +12,8 @@ closeButton.addEventListener('click', () =>
 {
     modal.style.display = 'none';
 });
+
+reloadButton.addEventListener('click', () =>
+{
+    location.reload();
+});
