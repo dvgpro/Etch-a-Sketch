@@ -45,4 +45,40 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.settings-content
+{
+    display: flex;
+    flex-grow: 1;
+}
+
+.color-container, .size-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input
+{
+    height: 30px;
+    width: 115px;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.btn-color, .btn-grid
+{
+    font-size: 20px;
+    width: 130px;
 }
