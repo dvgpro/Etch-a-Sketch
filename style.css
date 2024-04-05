@@ -17,3 +17,13 @@ body
     height: 30px;
     width: 175px;
 }
+
+.grid-container 
+{
+    height: 720px;
+    width: 720px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin: 10px;
+}
