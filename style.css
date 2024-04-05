@@ -34,8 +34,9 @@ body
     /*display: none;
     position: fixed;
     z-index: 1;*/
-    height: 300px;
-    width: 250px;
+    height: 500px;
+    width: 425px;
+    background-color: grey;
 }
 
 .modal-content
