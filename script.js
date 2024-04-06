@@ -45,11 +45,12 @@ function buildGrid(row, colors, clicked)
         );
 
         box.addEventListener('mouseenter', () =>
-        {
-            if (clicked === 'true')
+        {  
+
+            if (box.style.backgroundColor == '')
             {
-                if (box.style.backgroundColor == '')
-                {
+                if (clicked === 'true')
+                {    
                     var letters = '0123456789ABCDEF';
                     colors = '#';
 
@@ -58,12 +59,11 @@ function buildGrid(row, colors, clicked)
                         colors += letters[Math.floor(Math.random() * 16)];
                     };
                     box.style.backgroundColor = colors;
+                }
+                else if(clicked === 'false')
+                {
+                    box.style.backgroundColor = colors;
                 };
-            };
-
-            if (box.style.backgroundColor == '')
-            {
-                box.style.backgroundColor = colors;
             };
 
             if (box.style.opacity <= 1)
