@@ -31,33 +31,25 @@ body
     flex-wrap: wrap;
 }
 
-.settings-modal
-{
-    display: none;
-    position: fixed;
-    z-index: 1;
-    height: 500px;
-    width: 425px;
-    background-color: grey;
-}
-
-.modal-content
+.modal-container
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    background-color: rgb(156, 156, 156);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
-.settings-content
+.settingsHeader
 {
-    display: flex;
-    flex-grow: 1;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.color-container, .size-container
+.changeColorContainer, .rowContainer
 {
     display: flex;
     flex-direction: column;
@@ -65,27 +57,50 @@ body
     align-items: center;
     margin: 20px;
     font-size: 25px;
-    font-weight: bold;
 }
 
-.input
+.apply-btn
 {
+    font-size: 20px;
+}
+
+.input-box
+{
+    font-size: 20px;
     height: 30px;
-    width: 115px;
-    background-color: lightgray;
+    width: 180px;
     border-style: solid;
+    border-color: black;
     border-width: 2px;
-    font-size: 20px;
-    margin: 6px;
+    padding: 3px;
+    background-color: lightgray;
+    margin: 5px;
 }
 
-.btn-color, .btn-grid, .close-modal
+.option-header
 {
-    font-size: 20px;
-    width: 130px;
+    font-size: 35px;
+    font-weight: 500;
 }
 
-.close-modal
+.buttonContainer
 {
-    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static-btn
+{
+    font-size: 20px;
+    height: 30px;
+    width: 110px;
+    margin: 25px;
+}
+
+.settings-modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
 }
