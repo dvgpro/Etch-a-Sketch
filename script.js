@@ -46,7 +46,6 @@ function buildGrid(row, colors, clicked)
 
         box.addEventListener('mouseenter', () =>
         {  
-
             if (box.style.backgroundColor == '')
             {
                 if (clicked === 'true')
